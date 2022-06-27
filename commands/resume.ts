@@ -5,7 +5,7 @@ import { canModifyQueue } from "../utils/queue";
 
 export default {
   name: "resume",
-  aliases: ["r"],
+  aliases: ["r","continue"],
   description: i18n.__("resume.description"),
   execute(message: Message) {
     const queue = bot.queues.get(message.guild!.id);
